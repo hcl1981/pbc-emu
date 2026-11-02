@@ -9,6 +9,8 @@ Lizenzdatei im jeweiligen Ordner; diese Datei dient nur der Übersicht.
     c64         GPL-2.0+     c64/LICENSE
     gbc         GPL-3.0      gbc/LICENSE
     megadrive   AGPL-3.0     megadrive/LICENSE
+    msx         GPL-3.0      msx/LICENSE
+    a2600       GPL-3.0      a2600/LICENSE
     nes         GPL-3.0      nes/LICENSE
     pbcemu      GPL-3.0+     pbcemu/LICENSE
     pce         GPL-3.0      pce/LICENSE
@@ -17,5 +19,7 @@ Lizenzdatei im jeweiligen Ordner; diese Datei dient nur der Übersicht.
 pbcemu.uf2 bündelt diese Emulatoren: GPL-3.0, der Mega-Drive-Teil AGPL-3.0.
 
 Einzelne Dateien stehen unter eigenen Bedingungen, die in den Dateien
-selbst stehen, zum Beispiel FatFs, die C64-OpenROMs (LGPL-3.0+) und die
-Prozessorkerne unter megadrive/core/cpus und sms/core/smsplus/z80.c.
+selbst stehen, zum Beispiel FatFs, die C64-OpenROMs (LGPL-3.0+), die
+Prozessorkerne (68000 Musashi: MIT; Z80 redcode: LGPL-3.0+, in
+megadrive/core/cpus, sms/core/redcode, msx/core/redcode), C-BIOS
+(msx/core/cbios/LICENSE.cbios) und common/usblink.* (GPLv2).
