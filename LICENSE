@@ -31,4 +31,6 @@ Die ROMs des ZX Spectrum (zx/roms/) und des Amstrad CPC 6128 (cpc/roms/)
 sind nicht frei: Sie gehören Amstrad (beim CPC auch Locomotive Software,
 AMSDOS auch Digital Research). Amstrad erlaubt ihre Weitergabe mit
 Emulatoren, solange die Copyright-Meldungen unverändert bleiben und niemand
-Geld dafür nimmt; Einzelheiten in den LICENSE.roms-Dateien.
+Geld dafür nimmt; Einzelheiten in den LICENSE.roms-Dateien. Das BIOS der
+ColecoVision gehört Coleco und liegt nicht bei; eingebaut ist nur ein
+eigenes Mini-BIOS (sms/src/main.c, GPL-3.0).
