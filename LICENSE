@@ -11,6 +11,8 @@ Lizenzdatei im jeweiligen Ordner; diese Datei dient nur der Übersicht.
     megadrive   AGPL-3.0     megadrive/LICENSE
     msx         GPL-3.0      msx/LICENSE
     a2600       GPL-3.0      a2600/LICENSE
+    zx          GPL-3.0      zx/LICENSE   (ROMs: zx/roms/LICENSE.roms)
+    cpc         GPL-3.0      cpc/LICENSE  (ROMs: cpc/roms/LICENSE.roms)
     nes         GPL-3.0      nes/LICENSE
     pbcemu      GPL-3.0+     pbcemu/LICENSE
     pce         GPL-3.0      pce/LICENSE
@@ -21,5 +23,12 @@ pbcemu.uf2 bündelt diese Emulatoren: GPL-3.0, der Mega-Drive-Teil AGPL-3.0.
 Einzelne Dateien stehen unter eigenen Bedingungen, die in den Dateien
 selbst stehen, zum Beispiel FatFs, die C64-OpenROMs (LGPL-3.0+), die
 Prozessorkerne (68000 Musashi: MIT; Z80 redcode: LGPL-3.0+, in
-megadrive/core/cpus, sms/core/redcode, msx/core/redcode), C-BIOS
-(msx/core/cbios/LICENSE.cbios) und common/usblink.* (GPLv2).
+megadrive/core/cpus, sms/core/redcode, msx/core/redcode, zx/core/redcode,
+cpc/core/redcode), C-BIOS (msx/core/cbios/LICENSE.cbios) und
+common/usblink.* (GPL-2.0-or-later).
+
+Die ROMs des ZX Spectrum (zx/roms/) und des Amstrad CPC 6128 (cpc/roms/)
+sind nicht frei: Sie gehören Amstrad (beim CPC auch Locomotive Software,
+AMSDOS auch Digital Research). Amstrad erlaubt ihre Weitergabe mit
+Emulatoren, solange die Copyright-Meldungen unverändert bleiben und niemand
+Geld dafür nimmt; Einzelheiten in den LICENSE.roms-Dateien.
