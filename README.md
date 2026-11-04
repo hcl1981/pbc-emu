@@ -5,7 +5,8 @@ MSX2, Amstrad CPC, Master System, Atari 7800, PC Engine, Mega Drive, Game Gear
 und Game Boy (Color) in
 einer Firmware, mit Gerätewahl und Spieleliste — oder die meisten Emulatoren
 als eigene Firmware. Zwei Geräte am USB-C-Kabel spielen Atari 2600, C64, NES,
-SG-1000, MSX, Amstrad CPC, Master System, PC Engine und Mega Drive zu zweit
+SG-1000, MSX, ZX Spectrum, Amstrad CPC, Master System, PC Engine und Mega
+Drive zu zweit
 ([`docs/LINKSPIEL.md`](docs/LINKSPIEL.md)). Game Boy (Color), NES, Master
 System, Game Gear und Mega Drive speichern Spielstände als `.sav` neben dem
 Spiel; Paddle-Spiele des Atari 2600 steuert man durch Drehen des Geräts,
