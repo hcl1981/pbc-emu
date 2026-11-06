@@ -10,7 +10,7 @@ Lizenzdatei im jeweiligen Ordner; diese Datei dient nur der Übersicht.
     gbc         GPL-3.0      gbc/LICENSE
     megadrive   AGPL-3.0     megadrive/LICENSE
     msx         GPL-3.0      msx/LICENSE
-    a2600       GPL-3.0      a2600/LICENSE
+    a2600       GPL-3.0      a2600/LICENSE (Vectrex-ROM: a2600/LICENSE.vectrex)
     zx          GPL-3.0      zx/LICENSE   (ROMs: zx/roms/LICENSE.roms)
     cpc         GPL-3.0      cpc/LICENSE  (ROMs: cpc/roms/LICENSE.roms)
     nes         GPL-3.0      nes/LICENSE
@@ -33,4 +33,8 @@ AMSDOS auch Digital Research). Amstrad erlaubt ihre Weitergabe mit
 Emulatoren, solange die Copyright-Meldungen unverändert bleiben und niemand
 Geld dafür nimmt; Einzelheiten in den LICENSE.roms-Dateien. Das BIOS der
 ColecoVision gehört Coleco und liegt nicht bei; eingebaut ist nur ein
-eigenes Mini-BIOS (sms/src/main.c, GPL-3.0).
+eigenes Mini-BIOS (sms/src/main.c, GPL-3.0). Das System-ROM des Vectrex
+(a2600/core/vectrex_bios.h) gehört General Consumer Electronics / Milton
+Bradley; Smith Engineering hat 1992 erlaubt, die Vectrex-ROMs für nicht
+kommerzielle Zwecke frei zu kopieren und weiterzugeben. Es steht nicht unter
+der Lizenz dieses Repositorys (a2600/LICENSE.vectrex).
