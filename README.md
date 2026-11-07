@@ -2,7 +2,7 @@
 
 Atari 2600, ZX Spectrum, ColecoVision, Commodore 64, Vectrex, NES, SG-1000,
 MSX und MSX2, Amstrad CPC, Master System, Atari 7800, PC Engine, Mega Drive,
-Game Gear und Game Boy (Color) in
+Game Gear, Game Boy (Color) und Arduboy in
 einer Firmware, mit Gerätewahl und Spieleliste — oder die meisten Emulatoren
 als eigene Firmware. Zwei Geräte am USB-C-Kabel spielen Atari 2600, C64, NES,
 SG-1000, MSX, ZX Spectrum, Amstrad CPC, Master System, PC Engine und Mega
@@ -16,7 +16,8 @@ ihren Farben. Je Spiel einstellbar: Tastenbelegung, Farbpaletten, Scanlines,
 Schwierigkeitsschalter; bei leeren Batterien blinkt im Spiel das
 Batteriesymbol. Der Ton läuft mit 45 kHz (Mega Drive: 22 kHz); C64, CPC,
 ZX Spectrum und MSX haben im Spiel ein Menü (Mitte + A) für Disketten- und
-Bandwechsel, Einstellungen und einzelne Tasten.
+Bandwechsel, Einstellungen und einzelne Tasten. Der Arduboy übersetzt das
+Spiel beim Laufen in ARM-Code und speichert sein EEPROM als `.sav`.
 
 Fertige Firmware unter **Releases**: `pbcemu.uf2` (alles in einem) sowie
 die Einzel-Firmwares. Bedienung, Aufbau und Flash-Aufteilung:
@@ -35,6 +36,7 @@ die Einzel-Firmwares. Bedienung, Aufbau und Flash-Aufteilung:
 | [`msx`](msx/) | MSX1 und MSX2 (eigener Kern mit V9938, Z80 redcode, C-BIOS; für BASIC/MSX-DOS die Original-ROMs vom Laufwerk), nur in PBCemu | GPL-3.0 (Z80: LGPL-3.0+, C-BIOS: BSD-artig) |
 | [`pce`](pce/) | PC Engine (pce-go) | GPL-3.0 |
 | [`megadrive`](megadrive/) | Mega Drive (Gwenesis, 68000 Musashi 4.10, Z80 redcode, eigener YM2612/SN76489), mit Super Street Fighter II und Link-Spiel | AGPL-3.0 (68000: MIT, Z80: LGPL-3.0+) |
+| [`arduboy`](arduboy/) | Arduboy (eigener ATmega32U4-Kern, das Spiel beim Laufen taktgenau in ARM-Code übersetzt), Spiele als `.hex`, nur in PBCemu | GPL-3.0+ (Plattformteil: MIT, `arduboy/LICENSE.picoboygb`) |
 | [`gbc`](gbc/) | Game Boy Color und Game Boy (Peanut-GB), Super-Game-Boy-Farben, Linkkabel | GPL-3.0 |
 
 Jeder Ordner hat seine eigene README und Lizenzdatei.

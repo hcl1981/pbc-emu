@@ -11,6 +11,7 @@ Lizenzdatei im jeweiligen Ordner; diese Datei dient nur der Übersicht.
     megadrive   AGPL-3.0     megadrive/LICENSE
     msx         GPL-3.0      msx/LICENSE
     a2600       GPL-3.0      a2600/LICENSE (Vectrex-ROM: a2600/LICENSE.vectrex)
+    arduboy     GPL-3.0+     arduboy/LICENSE (Plattformteil: arduboy/LICENSE.picoboygb, MIT)
     zx          GPL-3.0      zx/LICENSE   (ROMs: zx/roms/LICENSE.roms)
     cpc         GPL-3.0      cpc/LICENSE  (ROMs: cpc/roms/LICENSE.roms)
     nes         GPL-3.0      nes/LICENSE
