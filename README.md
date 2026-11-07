@@ -4,10 +4,11 @@ Atari 2600, ZX Spectrum, ColecoVision, Commodore 64, Vectrex, NES, SG-1000,
 MSX und MSX2, Amstrad CPC, Master System, Atari 7800, PC Engine, Mega Drive,
 Game Gear, Game Boy (Color) und Arduboy in
 einer Firmware, mit Gerätewahl und Spieleliste — oder die meisten Emulatoren
-als eigene Firmware. Zwei Geräte am USB-C-Kabel spielen Atari 2600, C64, NES,
-SG-1000, MSX, ZX Spectrum, Amstrad CPC, Master System, PC Engine und Mega
-Drive zu zweit
-([`docs/LINKSPIEL.md`](docs/LINKSPIEL.md)). Game Boy (Color), NES, Master
+als eigene Firmware. Zwei Geräte am USB-C-Kabel spielen Atari 2600, Atari
+7800, ColecoVision, C64, NES, SG-1000, MSX, ZX Spectrum, Amstrad CPC, Master
+System, PC Engine und Mega Drive zu zweit, auch Sonic 2 im geteilten Bild
+([`docs/LINKSPIEL.md`](docs/LINKSPIEL.md)); fehlt dem Partner das Spiel,
+schickt man es übers Kabel mit. Game Boy (Color), NES, Master
 System, Game Gear und Mega Drive speichern Spielstände als `.sav` neben dem
 Spiel; Paddle-Spiele des Atari 2600 steuert man durch Drehen des Geräts,
 für NES gibt es Game-Genie-Codes (`<Spiel>.cht`). Game Boys tauschen über
