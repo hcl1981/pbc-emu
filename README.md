@@ -14,7 +14,9 @@ für NES gibt es Game-Genie-Codes (`<Spiel>.cht`). Game Boys tauschen über
 das Kabel Pokémon wie mit dem Linkkabel, Super-Game-Boy-Spiele erscheinen in
 ihren Farben. Je Spiel einstellbar: Tastenbelegung, Farbpaletten, Scanlines,
 Schwierigkeitsschalter; bei leeren Batterien blinkt im Spiel das
-Batteriesymbol.
+Batteriesymbol. Der Ton läuft mit 45 kHz (Mega Drive: 22 kHz); C64, CPC,
+ZX Spectrum und MSX haben im Spiel ein Menü (Mitte + A) für Disketten- und
+Bandwechsel, Einstellungen und einzelne Tasten.
 
 Fertige Firmware unter **Releases**: `pbcemu.uf2` (alles in einem) sowie
 die Einzel-Firmwares. Bedienung, Aufbau und Flash-Aufteilung:
