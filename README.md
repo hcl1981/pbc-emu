@@ -26,7 +26,7 @@ die Einzel-Firmwares. Bedienung, Aufbau und Flash-Aufteilung:
 
 | Ordner | Inhalt | Lizenz |
 |---|---|---|
-| [`pbcemu`](pbcemu/) | Starter: Gerätewahl, Favoriten, Spieleliste, Optionen, Batterieanzeige, USB-Laufwerk | GPL-3.0+ (Schrift Lato: OFL-1.1) |
+| [`pbcemu`](pbcemu/) | Starter: Gerätewahl, Favoriten, Spieleliste, Optionen, Spiele löschen, Batterieanzeige, USB-Laufwerk | GPL-3.0+ (Schrift Lato: OFL-1.1) |
 | [`common`](common/) | Übergabe zwischen Starter und Emulatoren, Link-Spiel | GPL-3.0+ (`usblink.*`: GPL-2.0+) |
 | [`a2600`](a2600/) | Atari 2600 (eigener Kern, NTSC und PAL), Atari 7800 (eigener Kern mit MARIA und POKEY) und Vectrex (eigener Kern, 6809, VIA, Analogteil), nur in PBCemu | GPL-3.0 (Vectrex-ROM: siehe `a2600/LICENSE.vectrex`) |
 | [`zx`](zx/) | ZX Spectrum 48K/128K (eigener Kern, Z80 redcode), Bänder und Snapshots, nur in PBCemu | GPL-3.0 (Z80: LGPL-3.0+; ROMs: Amstrad, siehe `zx/roms/LICENSE.roms`) |
